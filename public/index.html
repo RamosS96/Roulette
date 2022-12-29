@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api-Roulette</title>
+  <script defer src="./index.js"></script>
+</head>
+<body>
+  <h1>API Roulette</h1>
+  <form action="/ruleta" method="POST">
+    <h4>Inside</h4>
+      <div id="pano">
+        <h5>Single</h5>
+        <div id="pano-single"></div>
+        <h5>Split</h5>
+        <div id="pano-split"></div>
+        <h5>Street</h5>
+        <div id="pano-street"></div>
+        <h5>Square</h5>
+        <div id="pano-square"></div>
+        <h5>Double Street</h5>
+        <div id="pano-dstreet"></div>
+      </div>
+    <h4>Bet</h4>
+    <input id="range-bar-bet" type="range" min="10" max="1000" step="10"/><span id="bet-q">10</span>
+  </form>
+  
+</body>
+</html>
